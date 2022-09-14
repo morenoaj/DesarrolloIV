@@ -5,18 +5,19 @@
     <title>Parte #2</title>
 </head>
 <body>
-    <form onsubmit="console.log()">
-        <!--  -->
+    <h1>Formulario 📃</h1>
+    <form onsubmit="console.log('Email:',email.value, 'Password:',passwd.value),event.preventDefault()">
+        <!-- Email -->
         <div>
             <label for="">Email</label>
-            <input type="email">
+            <input name="email" type="email">
         </div>
-        <!--  -->
+        <!-- Password -->
         <div>
             <label for="">Password</label>
-            <input type="password">
+            <input name="passwd" type="password">
         </div>
-        <!--  -->
+        <!-- Button -->
         <div>
             <button>Login</button>
         </div>
