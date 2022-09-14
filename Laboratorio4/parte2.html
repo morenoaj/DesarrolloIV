@@ -6,21 +6,24 @@
 </head>
 <body>
     <h1>Formulario 📃</h1>
-    <form onsubmit="console.log('Email:',email.value, 'Password:',passwd.value),event.preventDefault()">
+    <form onsubmit="console.log('Correo:',email.value, 'Contraseña:',passwd.value),event.preventDefault()">
         <!-- Email -->
+        <Fieldset>
+            <legend>Ingresa tu Correo Electronico y Contraseña</legend>
         <div>
-            <label for="">Email</label>
+            <label for="">Correo Electronico</label>
             <input name="email" type="email">
         </div>
         <!-- Password -->
         <div>
-            <label for="">Password</label>
+            <label for="">Contraseña</label>
             <input name="passwd" type="password">
         </div>
         <!-- Button -->
         <div>
             <button>Login</button>
         </div>
+    </Fieldset>
     </form>
 </body>
 </html>
