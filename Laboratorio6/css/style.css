@@ -1,0 +1,41 @@
+.box {
+    border: 1px solid black;
+    padding: 25px 10px 35px 7px;
+    margin: 45px;
+    width: 547px;
+    height: 390px;
+  }
+  
+  h1{
+    margin-top: 15px;
+    color:#375e97;
+    font-family: Georgia;
+  }
+
+  hr{
+    background-color: #375e97;
+    margin-top: -20px;
+  }
+
+  h3{
+    color:#999999;
+    font-family: Arial;
+    margin-top: 25px;
+  }
+
+  .text{
+    font-family: Arial;
+    line-height: 1.5em;
+  }
+
+  h2{
+    font-family: Arial;
+  }
+
+  .link{
+    color: #fb6542;
+  }
+  
+  .contact{
+    line-height: 1.2em;
+  }
