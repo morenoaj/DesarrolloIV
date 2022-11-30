@@ -12,10 +12,11 @@
     <section id="piramyd"> </section>
     
      <div id="box">
-      <h1 class="title"> Piramide </h1>
+      <h1 class="title"> Parcial #2</h1>
+      <h2 class="title"> Piramide </h2>
       <!-- <h4 class="title"> Recorre la Piramide</h4> -->
         <b id="sumFinal"> </b>
-        <input type="button" id="btn_01" name="boton" value="Calcular" onclick="calcular()"/>
+        <input type="button" id="btn_calcular" name="boton" value="Calcular" onclick="calcular()"/>
         <!-- <input type="button" id="btn_02" name="boton" value="Limpiar" onclick="borra('texto')" hidden="true"/> -->
         <input type="button" id="refresh" name="boton" value="Limpiar" onclick="borra('texto')" hidden="true"/>
         <!-- <button id="refresh">Recargar</button> -->
@@ -23,14 +24,14 @@
 
 		<script>
           $(function(){
-            $('#btn_01').click(function calcular(){
+            $('#btn_calcular').click(function calcular(){
               $('#refresh').show();
-              $('#btn_01').hide();
+              $('#btn_calcular').hide();
               respuesta();
             });
             // $('#btn_02').click(function(){
             //   $('#btn_02').hide();
-            //   $('#btn_01').show();
+            //   $('#btn_calcular').show();
             //   document.getElementById("sumFinal").innerHTML= "";
             // });
           })
